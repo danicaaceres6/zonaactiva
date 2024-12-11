@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ZonaActiva: Conecta con negocios locales, eventos y servicios en tu área. Encuentra lo que necesitas cerca de ti." />
+    <title>ZonaActiva - Negocios y Eventos Locales</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #005fa3;
+            padding: 0.5rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: #eaf4fc;
+        }
+
+        .hero h2 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            padding: 2rem;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .card h3 {
+            margin: 1rem 0;
+            font-size: 1.5rem;
+        }
+
+        .card p {
+            font-size: 1rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ZonaActiva</h1>
+        <p>Conecta con lo mejor de tu comunidad</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#negocios">Negocios</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h2>Descubre negocios, servicios y eventos cerca de ti</h2>
+        <p>Explora tu comunidad y apoya lo local. ¡Todo lo que necesitas está en ZonaActiva!</p>
+    </section>
+    <section id="negocios" class="cards">
+        <div class="card">
+            <img src="images/restaurante.jpg" alt="Restaurante Local">
+            <h3>Restaurantes</h3>
+            <p>Saborea lo mejor de tu comunidad con nuestros restaurantes recomendados.</p>
+        </div>
+        <div class="card">
+            <img src="images/tienda.jpg" alt="Tienda Local">
+            <h3>Tiendas</h3>
+            <p>Compra en negocios locales y encuentra productos únicos.</p>
+        </div>
+        <div class="card">
+            <img src="images/servicio.jpg" alt="Servicio Local">
+            <h3>Servicios</h3>
+            <p>Desde reparaciones hasta asesorías, conecta con profesionales cerca de ti.</p>
+        </div>
+    </section>
+    <section id="eventos" class="cards">
+        <div class="card">
+            <img src="images/concierto.jpg" alt="Concierto">
+            <h3>Conciertos</h3>
+            <p>Disfruta de música en vivo y eventos culturales.</p>
+        </div>
+        <div class="card">
+            <img src="images/feria.jpg" alt="Feria Local">
+            <h3>Ferias</h3>
+            <p>Descubre ferias y exposiciones en tu comunidad.</p>
+        </div>
+        <div class="card">
+            <img src="images/deporte.jpg" alt="Evento Deportivo">
+            <h3>Deportes</h3>
+            <p>Participa o disfruta de eventos deportivos locales.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 ZonaActiva. Todos los derechos reservados. | <a href="#contacto">Contáctanos</a></p>
+    </footer>
+</body>
+</html>
